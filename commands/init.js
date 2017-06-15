@@ -20,8 +20,8 @@ module.exports = prompt(tips).then(({confirm}) => {
   const gitBranch = "master"
   const spinner = ora('init project...')
   const place = "node-atpl-express"
-  spinner.start()  
-  download(`${gitPlace}#${gitBranch}`, `${__dirname}/../${place}`, (err) => {
+  spinner.start()
+  download(`${gitPlace}#${gitBranch}`, `./${place}`, (err) => {
     if (err) {
       console.log(chalk.red(err))
       process.exit()

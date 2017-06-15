@@ -1,6 +1,6 @@
 {
   "name": "atpl-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "atpl-cli",
   "bin": {
     "atpl": "bin/atpl"
